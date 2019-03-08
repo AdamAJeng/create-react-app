@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --env=jsdom --color --coverage",
-    "test:windows:ci": "set CI=true react-scripts test --env=jsdom --color --coverage",
+    "test:windows:ci": "set CI=true react-scripts test --env=jsdom",
     "test:experiment": "set CI=true react-scripts test --env=jsdom  set --color set --coverage",
     "eject": "react-scripts eject"
   },

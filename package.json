@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cross-env-test": "^0.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
@@ -14,6 +15,7 @@
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --env=jsdom --color --coverage",
     "test:windows:ci": "set CI=true react-scripts test --env=jsdom --color --coverage",
+    "test:experiment": "cross-env-test NODE_ENV=testing set CI=true react-scripts test --env=jsdom --color --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

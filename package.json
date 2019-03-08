@@ -15,7 +15,7 @@
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --env=jsdom --color --coverage",
     "test:windows:ci": "set CI=true react-scripts test --env=jsdom --color --coverage",
-    "test:experiment": "cross-env-test NODE_ENV=testing set CI=true react-scripts test --env=jsdom --color --coverage",
+    "test:experiment": "set CI=true react-scripts test --env=jsdom  set --color set --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
